@@ -109,10 +109,10 @@ html.is-clipped--nav {
   flex-grow: 1;
   min-height: 0;
   width: 100%;
-  padding: .5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   line-height: var(--nav-line-height);
   position: relative;
-  font-size: .80rem;
+  font-size: 0.8rem;
 }
 
 .nav-menu h3.title {
