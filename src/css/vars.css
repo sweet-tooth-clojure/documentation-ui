@@ -99,14 +99,14 @@
   --admonition-label-font-weight: var(--body-font-weight-bold);
   --caption-font-color: var(--color-gray-70);
   --caption-font-weight: var(--body-font-weight-bold);
-  --code-background: var(--color-cream);
+  --code-background: #fff5eb;
   --code-font-color: var(--body-font-color);
   --example-background: var(--color-white);
   --example-border-color: var(--color-gray-70);
   --kbd-background: var(--panel-background);
   --kbd-border-color: var(--color-gray-10);
   --pre-background: var(--color-cream);
-  --pre-border-color: #ffefb7;
+  --pre-border-color: var(--color-smoke-90);
   --pre-annotation-font-color: var(--color-gray-10);
   --quote-background: var(--color-smoke-30);
   --quote-border-color: var(--color-gray-70);
