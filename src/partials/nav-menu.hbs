@@ -3,11 +3,9 @@
     {{#with @root.page.componentVersion}}
       <!-- <h3 class="title"><a href="{{{relativize ./url}}}">{{./title}}</a></h3> -->
     {{/with}}
-    {{#each site.components}}
-      {{#with this.versions.[0]}}
-        <h3 class="title"><a href="{{{relativize ./url}}}">{{./title}}</a></h3>
-        {{> nav-tree navigation=this.navigation}}
-      {{/with}}
-    {{/each}}
+    {{> nav-menu-item component=site.components.overview }}
+    {{> nav-menu-item component=site.components.quickstart }}
+    {{> nav-menu-item component=site.components.todo-example }}
+    {{> nav-menu-item component=site.components.endpoint }}
   </nav>
 </div>

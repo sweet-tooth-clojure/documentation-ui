@@ -1,0 +1,4 @@
+{{#with component.versions.[0]}}
+  <h3 class="title"><a href="{{{relativize ./url}}}">{{./title}}</a></h3>
+  {{> nav-tree navigation=this.navigation}}
+{{/with}}
